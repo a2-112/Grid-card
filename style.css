@@ -46,6 +46,7 @@ main {
 h1 {
     color: var(--Grey-color);
     font-weight: 200;
+    font-size: 3rem;
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 .page-text {
     color: var(--Gray-color);
     margin: 1em auto;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .grid-container {
@@ -115,6 +116,10 @@ transform: scale(1.05);
 }
 
 @media(min-width:40em) {
+    h1,
+        h2 {
+            font-size: 2rem;
+        }
     .intro-content {
         text-align: center;
         width: 70%;
@@ -132,6 +137,10 @@ transform: scale(1.05);
     main {
         width: 90%;
     }
+
+        h1, h2{
+            font-size: 3rem;
+        }
 
     .intro-content {
         width: 50%;
