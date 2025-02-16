@@ -46,7 +46,6 @@ main {
 h1 {
     color: var(--Grey-color);
     font-weight: 200;
-    font-size: 3rem;
 }
 
 h2 {
@@ -68,6 +67,7 @@ h2 {
         "superv"
         "calcul"
         "karma";
+        margin-top: 2em;
 }
 
 .grid-item {
@@ -139,7 +139,7 @@ transform: scale(1.05);
     }
 
         h1, h2{
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
 
     .intro-content {
