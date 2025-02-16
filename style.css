@@ -130,11 +130,11 @@ transform: scale(1.05);
 
 @media(min-width:60em) {
     main {
-        width: 80%;
+        width: 90%;
     }
 
     .intro-content {
-        width: 45%;
+        width: 50%;
         margin: auto;
         text-align: center;
     }
